@@ -187,6 +187,7 @@ h3 {
         font-size: 20px;
     }
     .paragraph {
+        margin-top: 10px;
         font-size: 13px;
     }
     h2 {
@@ -200,17 +201,19 @@ h3 {
         font-size: 20px;
     }
     .social-name {
-        font-size: 15px;
+        font-size: 14px;
     }
     .project-image {
-        display: none;
-    }
-    body {
-        padding: 0;
-        margin: 0;
+        margin-bottom: 10px;
     }
     .project-container {
-        display: flex;
         margin: 0;
+    }
+    .burger-project {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner {
+        width: 100%;
     }
 }
