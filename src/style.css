@@ -193,6 +193,11 @@ h3 {
     text-align: center;
 }
 
+.socialMediaContainer {
+    background-color: #999fd141;
+    margin-bottom: 30px;
+}
+
 @media (max-width: 900px) {
     h1 {
         font-size: 40px;
