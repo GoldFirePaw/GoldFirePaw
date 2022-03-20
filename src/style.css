@@ -162,9 +162,26 @@ h3 {
     color: white;
     font-weight: 500;
     transition: ease-in-out 50ms;
+    text-decoration: none;
 }
 
-.project-button:hover {
+.mailLink {
+    text-decoration: none;
+}
+
+.contact-button {
+    width: 200px;
+    height: 40px;
+    border: 1px solid var(--primary-color);
+    border-radius: 30px;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 500;
+    transition: ease-in-out 50ms;
+}
+
+.project-button:hover,
+.contact-button:hover {
     cursor: pointer;
     background-color: white;
     color: var(--primary-color);
