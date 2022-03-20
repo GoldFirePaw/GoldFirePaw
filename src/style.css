@@ -1,262 +1,262 @@
-                             :root {
-                            --primary-color: rgb(135, 120, 193);
-                            --secondary-color: #e4a7e2;
-                        }
-                        
-                        html {
-                            height: 100%;
-                        }
-                        
-                        body {
-                            margin: 7px;
-                            min-height: 100%;
-                            border: 7px solid var(--primary-color);
-                            border-radius: 5px;
-                            padding: 30px;
-                            font-family: "Roboto", sans-serif;
-                        }
-                        
-                        nav {
-                            margin: -30px -30px auto -30px;
-                        }
-                        
-                        .footerLink {
-                            color: var(--primary-color);
-                        }
-                        
-                        .header-container {
-                            position: relative;
-                            text-align: center;
-                            color: white;
-                        }
-                        
-                        .centered {
-                            position: absolute;
-                            top: 50%;
-                            left: 50%;
-                            transform: translate(-50%, -50%);
-                        }
-                        
-                        h1 {
-                            font-size: 60px;
-                            color: var(--secondary-color);
-                        }
-                        
-                        h2 {
-                            font-size: 40px;
-                            color: var(--primary-color);
-                        }
-                        
-                        h3 {
-                            font-size: 20px;
-                            opacity: 60%;
-                            margin-top: 40px;
-                        }
-                        
-                        .navbarBrand {
-                            color: var(--primary-color);
-                            font-weight: bold;
-                            font-size: 22px;
-                            text-decoration: none;
-                            margin: 0 20px;
-                        }
-                        
-                        .navbarBrand:hover {
-                            color: #545b9d;
-                            cursor: pointer;
-                        }
-                        
-                        .navbarLink {
-                            color: var(--primary-color);
-                            font-size: 20px;
-                            text-decoration: none;
-                            margin: 0 20px;
-                        }
-                        
-                        .navbarLink:hover {
-                            color: #545b9d;
-                            cursor: pointer;
-                        }
-                        
-                        .bold {
-                            font-weight: 800;
-                        }
-                        
-                        .center {
-                            display: block;
-                            margin-right: auto;
-                            margin-left: auto;
-                            width: 50%;
-                            text-align: center;
-                        }
-                        
-                        .margin-top {
-                            margin-top: 20px;
-                        }
-                        
-                        .banner {
-                            margin-top: 30px;
-                            width: 80%;
-                            border-radius: 5px;
-                        }
-                        
-                        .justify {
-                            width: 80%;
-                            text-align: justify;
-                        }
-                        
-                        .paragraph {
-                            font-size: 18px;
-                        }
-                        
-                        .icons {
-                            font-size: 40px;
-                            margin-bottom: 30px;
-                            color: var(--primary-color);
-                        }
-                        
-                        .social-name {
-                            color: var(--primary-color);
-                            font-size: 20px;
-                            margin-bottom: 0px;
-                        }
-                        
-                        .socialLink {
-                            text-decoration: none;
-                        }
-                        
-                        .socialLink:hover {
-                            cursor: pointer;
-                            color: #212547;
-                        }
-                        
-                        .drawing-container {
-                            margin-top: 30px;
-                        }
-                        
-                        .img-drawing {
-                            max-width: 100%;
-                            border-radius: 5px;
-                        }
-                        
-                        .row {
-                            margin-top: 10px;
-                        }
-                        
-                        .project-container {
-                            margin: 50px 0;
-                        }
-                        
-                        .project-image {
-                            width: 100%;
-                            border-radius: 5px;
-                        }
-                        
-                        .project-button {
-                            width: 100%;
-                            height: 40px;
-                            border: 1px solid var(--primary-color);
-                            border-radius: 30px;
-                            background-color: var(--primary-color);
-                            color: white;
-                            font-weight: 500;
-                            transition: ease-in-out 50ms;
-                            text-decoration: none;
-                        }
-                        
-                        .mailLink {
-                            text-decoration: none;
-                        }
-                        
-                        .contact-button {
-                            margin-top: 30px;
-                            width: 200px;
-                            height: 40px;
-                            border: 1px solid var(--primary-color);
-                            border-radius: 30px;
-                            background-color: var(--primary-color);
-                            color: white;
-                            font-weight: 500;
-                            transition: ease-in-out 50ms;
-                        }
-                        
-                        .project-button:hover,
-                        .contact-button:hover {
-                            cursor: pointer;
-                            background-color: white;
-                            color: var(--primary-color);
-                        }
-                        
-                        .twitch-player {
-                            margin-top: 30px;
-                            text-align: center;
-                        }
-                        
-                        .socialMediaContainer {
-                            background-color: #999fd141;
-                            margin-bottom: 30px;
-                        }
-                        
-                        @media (max-width: 900px) {
-                            h1 {
-                                font-size: 40px;
-                            }
-                            .paragraph {
-                                font-size: 13px;
-                            }
-                            h2 {
-                                font-size: 30px;
-                            }
-                        }
-                        
-                        @media (max-width: 671px) {
-                            h1 {
-                                font-size: 30px;
-                                width: 100%;
-                                margin-top: -20px;
-                            }
-                            h3 {
-                                margin-top: 20px;
-                                font-size: 15px;
-                                width: 100%;
-                            }
-                            @media (max-width: 500px) {
-                                h1 {
-                                    margin-top: -20px;
-                                    font-size: 30px;
-                                    width: 100%;
-                                }
-                                .paragraph {
-                                    margin-top: 10px;
-                                    font-size: 16px;
-                                }
-                                h2 {
-                                    font-size: 20px;
-                                }
-                                h3 {
-                                    margin-top: 20px;
-                                    font-size: 10px;
-                                }
-                                .icons {
-                                    font-size: 20px;
-                                }
-                                .social-name {
-                                    font-size: 14px;
-                                }
-                                .project-image {
-                                    margin-bottom: 10px;
-                                }
-                                .project-container {
-                                    margin-top: 40px;
-                                }
-                                .burger-project {
-                                    display: flex;
-                                    flex-direction: column-reverse;
-                                }
-                                .banner {
-                                    width: 100%;
-                                }
-                                .project-button {
-                                    margin-top: 20px;
-                                }
-                            }
+    :root {
+    --primary-color: rgb(135, 120, 193);
+    --secondary-color: #e4a7e2;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 7px;
+    min-height: 100%;
+    border: 7px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    margin: -30px -30px auto -30px;
+}
+
+.footerLink {
+    color: var(--primary-color);
+}
+
+.header-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 60px;
+    color: var(--secondary-color);
+}
+
+h2 {
+    font-size: 40px;
+    color: var(--primary-color);
+}
+
+h3 {
+    font-size: 20px;
+    opacity: 60%;
+    margin-top: 40px;
+}
+
+.navbarBrand {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.navbarBrand:hover {
+    color: #545b9d;
+    cursor: pointer;
+}
+
+.navbarLink {
+    color: var(--primary-color);
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.navbarLink:hover {
+    color: #545b9d;
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.banner {
+    margin-top: 30px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.justify {
+    width: 80%;
+    text-align: justify;
+}
+
+.paragraph {
+    font-size: 18px;
+}
+
+.icons {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+}
+
+.social-name {
+    color: var(--primary-color);
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.socialLink {
+    text-decoration: none;
+}
+
+.socialLink:hover {
+    cursor: pointer;
+    color: #212547;
+}
+
+.drawing-container {
+    margin-top: 30px;
+}
+
+.img-drawing {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.project-container {
+    margin: 50px 0;
+}
+
+.project-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project-button {
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--primary-color);
+    border-radius: 30px;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 500;
+    transition: ease-in-out 50ms;
+    text-decoration: none;
+}
+
+.mailLink {
+    text-decoration: none;
+}
+
+.contact-button {
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid var(--primary-color);
+    border-radius: 30px;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 500;
+    transition: ease-in-out 50ms;
+}
+
+.project-button:hover,
+.contact-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: var(--primary-color);
+}
+
+.twitch-player {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.socialMediaContainer {
+    background-color: #999fd141;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 960px) {
+    h1 {
+        font-size: 40px;
+    }
+    .paragraph {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 671px) {
+    h1 {
+        font-size: 30px;
+        width: 100%;
+        margin-top: -20px;
+    }
+    h3 {
+        margin-top: 20px;
+        font-size: 15px;
+        width: 100%;
+    }
+    @media (max-width: 500px) {
+        h1 {
+            margin-top: -20px;
+            font-size: 30px;
+            width: 100%;
+        }
+        .paragraph {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        h3 {
+            margin-top: 20px;
+            font-size: 10px;
+        }
+        .icons {
+            font-size: 20px;
+        }
+        .social-name {
+            font-size: 14px;
+        }
+        .project-image {
+            margin-bottom: 10px;
+        }
+        .project-container {
+            margin-top: 40px;
+        }
+        .burger-project {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .banner {
+            width: 100%;
+        }
+        .project-button {
+            margin-top: 20px;
+        }
+    }
