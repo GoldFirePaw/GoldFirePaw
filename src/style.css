@@ -169,3 +169,48 @@ h3 {
     margin-top: 30px;
     text-align: center;
 }
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 40px;
+    }
+    .paragraph {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 20px;
+    }
+    .paragraph {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    .icons {
+        font-size: 20px;
+    }
+    .social-name {
+        font-size: 15px;
+    }
+    .project-image {
+        display: none;
+    }
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    .project-container {
+        display: flex;
+        margin: 0;
+    }
+}
