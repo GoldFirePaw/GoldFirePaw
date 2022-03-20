@@ -20,6 +20,10 @@ nav {
     background-color: var(--primary-color);
 }
 
+.footerLink {
+    color: var(--primary-color);
+}
+
 .header-container {
     position: relative;
     text-align: center;
